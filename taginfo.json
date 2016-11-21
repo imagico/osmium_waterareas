@@ -1,0 +1,43 @@
+{
+    "data_format": 1,
+    "data_url": "https://raw.githubusercontent.com/imagico/osmium_waterareas/master/taginfo.json",
+    "project": {
+        "name": "Water area extract",
+        "description": "Data extract for OpenStreetMapData.com water area processings",
+        "project_url": "http://openstreetmapdata.com/",
+        "doc_url": "https://github.com/imagico/osmium_waterareas",
+        "contact_name": "Christoph Hormann",
+        "contact_email": "chris_hormann@gmx.de"
+    },
+    "tags": [
+        { 
+            "key": "water",
+            "object_types": [ "area" ],
+            "description": "Secondary key to indicate type of water area."
+        },
+        {
+            "key": "natural",
+            "value": "water",
+            "object_types": [ "area" ],
+            "description": "Area with water cover of unspecific type, lake by default."
+        },
+        {
+            "key": "waterway",
+            "value": "riverbank",
+            "object_types": [ "area" ],
+            "description": "Area with water cover, flowing water (river)."
+        },
+        {
+            "key": "waterway",
+            "value": "dock",
+            "object_types": [ "area" ],
+            "description": "Area with water cover."
+        },
+        {
+            "key": "landuse",
+            "value": "reservoir",
+            "object_types": [ "area" ],
+            "description": "Area with water cover, old tagging for artificial reservoir."
+        }
+    ]
+}
